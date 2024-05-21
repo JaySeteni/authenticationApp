@@ -1,0 +1,41 @@
+
+.flex1-cont{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius:0 0 0 0;
+    
+}
+.flex1{
+    background-color: rgb(59, 11, 43);
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-right: 45px;
+    border-radius:0 10px 50px 0;
+
+}
+.flex1 select{
+
+    font-family: verdana;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color:  var(--red-to-pink-to-purple-horizontal-gradient) 100%;
+
+    color: var(--gray-900);
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.125rem;
+    margin: 0;
+    border-radius: 0 50% 0 0;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .flex-cont{
+        background-color: red;
+        display: none;
+
+    }
+}
