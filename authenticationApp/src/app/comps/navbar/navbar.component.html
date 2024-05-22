@@ -1,14 +1,12 @@
-<div class="flex1-cont">
-    <ul class="flex1">
-        <select name="" id=""> 
-            <option value="home"><a routerLink="./home">Home</a></option>
-            <option value="login"><a routerLink="./login">login </a></option>
-            <option value="register"><a routerLink="./register">register</a></option>
-        
-            <select name="" id="">
-                <option value=""><a routerLink="./login">Admin</a></option>
+<nav>
+    <div class="flex1-cont">
+        <ul class="flex1">
+            <select name="main-dropdown" id="dropdown-1" (change)="navigate($event)">
+                <option value="home">Home</option>
+                <option value="login">Login</option>
+                <option value="register">Register</option>
+                <option value="admin">Admin</option>
             </select>
-        </select>
-        </ul>
-        
-</div>
+        </ul>   
+    </div>
+</nav>

@@ -6,35 +6,50 @@
     
 }
 .flex1{
-    background-color: rgb(59, 11, 43);
-    padding: 10px;
-    padding-bottom: 20px;
-    padding-right: 15px;
+    /* background-color: rgb(59, 11, 43); */
+    background-color: #4b48481a;
+    padding: 0px;
+
     border-radius:0 10px 50px 0;
 }
 .flex1 select{
-
     font-family: verdana;
     text-decoration: none;
     font-size: 17px;
     font-weight: lighter;
     text-transform: uppercase;
     color:  var(--red-to-pink-to-purple-horizontal-gradient) 100%;
-
-    color: var(--gray-900);
+    background-color: rgb(59, 11, 43);
+    color: white;
     font-weight: 500;
     line-height: 100%;
     letter-spacing: -0.125rem;
     margin: 0;
     border-radius: 0 0 500px 0;
+
+    /* padding: 10px;
+    padding-bottom: 20px; */
 }
 
 
 
-@media screen and (max-width: 650px) {
+@media screen and (min-width: 600px) {
     .flex-cont{
         background-color: red;
         display: none;
 
+    }
+
+    .flex1-cont {
+        display: flex;
+        justify-content: end;
+        width: 100%;  /* Full width */
+        font-size: 14px;  /* Smaller font size */
+    }
+
+    /* Additional responsive styles if needed */
+    /* For example, you might want to change padding, margin, etc. */
+    body {
+        padding: 10px;  /* Example of adjusting padding */
     }
 }
