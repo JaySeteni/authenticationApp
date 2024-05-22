@@ -8,6 +8,7 @@ import { RouterLink } from '@angular/router';
 import { AdminComponent } from './comps/admin/admin.component';
 
 const routes: Routes = [
+  {path: '', redirectTo:'home' , pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'signup', component: RegisterComponent},
   {path: 'login', component: LoginComponent},
